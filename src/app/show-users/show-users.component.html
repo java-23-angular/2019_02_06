@@ -1,0 +1,4 @@
+<ul>
+  <li *ngFor="let user of users">{{user.getName() + ' - ' + user.getEmail()}}</li>
+</ul>
+<button (click)="load()">Load</button>
